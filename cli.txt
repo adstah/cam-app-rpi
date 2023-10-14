@@ -1,0 +1,3 @@
+source fastapi/bin/activate
+
+uvicorn main:app --reaload --host 0.0.0.0 --port 8000
